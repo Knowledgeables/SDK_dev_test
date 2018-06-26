@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.limbo.sdk_demo">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <application
+        >
+        <activity
+            android:name=".activity.SendWorkActivity"
+            android:theme="@style/ColorTranslucentTheme"
+            android:windowSoftInputMode="adjustPan">
+        </activity>
+        <activity
+            android:name=".activity.CompanySelectorActivity"
+            android:theme="@style/ColorTranslucentTheme" />
+        <activity
+            android:name=".activity.PersonSelectorActivity"
+            android:theme="@style/ColorTranslucentTheme" />
+    </application>
+
+</manifest>

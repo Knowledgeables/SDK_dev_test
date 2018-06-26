@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#edf0f5"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_send_company"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:foreground="?attr/selectableItemBackground"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="15dp"
+            android:text="发起企业"
+            android:textColor="@color/color_333333"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tv_send_company"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginEnd="7dp"
+            android:layout_marginStart="7dp"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:gravity="right"
+            android:hint="请选择"
+            android:singleLine="true"
+            android:textColor="@color/color_666666"
+            android:textColorHint="#b3b3b3"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:id="@+id/iv_send_company"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginEnd="15dp"
+            android:src="@mipmap/enter" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/color_line" />
+
+    <LinearLayout
+        android:id="@+id/ll_send_person"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:foreground="?attr/selectableItemBackground"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="15dp"
+            android:text="发起人"
+            android:textColor="@color/color_333333"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tv_send_person"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginEnd="7dp"
+            android:layout_marginStart="7dp"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:gravity="right"
+            android:hint="请选择"
+            android:singleLine="true"
+            android:textColor="@color/color_666666"
+            android:textColorHint="#b3b3b3"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:id="@+id/iv_send_person"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginEnd="15dp"
+            android:src="@mipmap/enter" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/color_line" />
+
+    <LinearLayout
+        android:id="@+id/ll_receive_company"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:foreground="?attr/selectableItemBackground"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="15dp"
+            android:text="处理企业"
+            android:textColor="@color/color_333333"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tv_receive_company"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginEnd="7dp"
+            android:layout_marginStart="7dp"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:gravity="right"
+            android:hint="请选择"
+            android:singleLine="true"
+            android:textColor="@color/color_666666"
+            android:textColorHint="#b3b3b3"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:id="@+id/iv_receive_company"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginEnd="15dp"
+            android:src="@mipmap/enter" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:foreground="?attr/selectableItemBackground"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="15dp"
+            android:text="故障等级"
+            android:textColor="@color/color_333333"
+            android:textSize="15sp" />
+
+        <RadioGroup
+            android:id="@+id/rg_urgent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/color_line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:foreground="?attr/selectableItemBackground"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="15dp"
+            android:text="SLA(必填)"
+            android:textColor="@color/color_333333"
+            android:textSize="15sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/et_sla_day"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_weight="1"
+                android:background="@null"
+                android:hint="请输入"
+                android:inputType="number"
+                android:singleLine="true"
+                android:textColor="@color/color_333333"
+                android:textColorHint="#b3b3b3"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:text="天"
+                android:textColor="@color/color_333333"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/et_sla_hour"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_weight="1"
+                android:background="@null"
+                android:hint="请输入"
+                android:inputType="number"
+                android:singleLine="true"
+                android:textColor="@color/color_333333"
+                android:textColorHint="#b3b3b3"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="30dp"
+                android:layout_marginStart="5dp"
+                android:text="小时"
+                android:textColor="@color/color_333333"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:text="简要描述(必填)"
+            android:textColor="@color/color_333333"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/et_describe"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="5dp"
+            android:background="@null"
+            android:ellipsize="end"
+            android:gravity="top"
+            android:hint="请在此输入"
+            android:maxLength="50"
+            android:scrollbars="vertical"
+            android:singleLine="false"
+            android:textColor="@color/color_333333"
+            android:textColorHint="#b3b3b3"
+            android:textSize="15sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="15dp"
+            android:foreground="?attr/selectableItemBackground">
+
+            <TextView
+                android:id="@+id/tv_describe_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textColor="@color/color_999999"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="/50"
+                android:textColor="@color/color_999999"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

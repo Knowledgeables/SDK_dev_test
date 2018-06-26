@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--自定义标题栏-->
+    <declare-styleable name="SimpleOptionView">
+        <attr name="option_title" format="string" />
+        <attr name="option_backgroundcolor" format="color" />
+        <attr name="option_barheight" format="dimension" />
+        <attr name="option_textsize" format="dimension" />
+        <attr name="option_right_textsize" format="dimension" />
+        <attr name="option_textcolor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="SwipeMenuLayout">
+        <attr name="swipeEnable" format="boolean" />
+        <attr name="ios" format="boolean" />
+        <attr name="leftSwipe" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="TabButton">
+        <!--初始显示的图标-->
+        <attr name="image" format="reference" />
+        <!--选中之后显示的图标-->
+        <attr name="clickimage" format="reference" />
+        <!--选中之后显示的颜色-->
+        <attr name="clickcolor" format="color" />
+        <!--图标下显示的文字，不要太长！-->
+        <attr name="text" format="string" />
+        <!--文字的大小-->
+        <attr name="text_size" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="BadgeRadioButton">
+        <!-- 提示数字背景颜色 -->
+        <attr name="badge_bg_color" format="color" />
+        <!-- 提示数字颜色 -->
+        <attr name="badge_txt_color" format="color" />
+        <!-- 提示数字大小 -->
+        <attr name="badge_txt_size" format="dimension|reference" />
+        <!-- 提示数字 -->
+        <attr name="badge_txt_num" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="CircleImageView">
+        <attr name="circle_border_width" format="dimension" />
+        <attr name="circle_border_color" format="color" />
+    </declare-styleable>
+
+
+    <declare-styleable name="RatingBar">
+        <!--尺寸值-->
+        <attr name="starImageSize" format="dimension" />
+        <!--星星间距-->
+        <attr name="starPadding" format="dimension" />
+        <!--星星总数-->
+        <attr name="starCount" format="integer" />
+        <!--空白的星星资源文件值-->
+        <attr name="starEmpty" format="reference" />
+        <!--满星资源文件值-->
+        <attr name="starFill" format="reference" />
+        <!--半星资源文件值-->
+        <attr name="starHalf" format="reference" />
+        <!--是否可点击boolean值-->
+        <attr name="clickable" format="boolean" />
+        <!--当前进度float值-->
+        <attr name="starStep" format="float" />
+        <!--每次进度方式的值，整星还是半星-->
+        <attr name="stepSize">
+            <enum name="Half" value="0" />
+            <enum name="Full" value="1" />
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="searchedit">
+        <attr name="imagewidth" format="dimension" />
+        <attr name="textSize" format="dimension" />
+        <attr name="textColor" format="color" />
+    </declare-styleable>
+    <declare-styleable name="CircularImage">
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+    </declare-styleable>
+    <declare-styleable name="Circletextview">
+        <attr name="circle_color" format="color" />
+        <attr name="circle_text_color" format="color" />
+        <attr name="random_color" format="boolean" />
+        <attr name="sub_first_character" format="boolean" />
+    </declare-styleable>
+</resources>
