@@ -5,7 +5,7 @@
     <application
         android:name=".App"
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/icon"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
@@ -17,19 +17,35 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
+        <!-- 郭灿sdk-->
         <meta-data
             android:name="YUNNA_OWNER_APPKEY"
-            android:value="YThkYzE5N2FiNzZmNDdhODkxNWQxNzUyMWNmYjVjMzE=" />
+            android:value="OGU1MWY1MTA0MmVkNGEyYjg0ZDNlYjQ5MWE1ZmU5Mjg=" />
         <meta-data
             android:name="YUNNA_OWNER_APPSECRET"
-            android:value="YThkYzE5N2FiNzZmNDdhODkxNWQxNzUyMWNmYjVjMzEtWVVOTkFJ" />
+            android:value="OGU1MWY1MTA0MmVkNGEyYjg0ZDNlYjQ5MWE1ZmU5MjgtWVVOTkFJ" />
+        <meta-data
+            android:name="YUNNA_SERVICE_APPKEY"
+            android:value="ad802879fb95bc1dbf10b0915aeec3144a90c91a" />
+        <meta-data
+            android:name="YUNNA_SERVICE_APPSECRET"
+            android:value="5c8a447e6fc92058c991049af77b51fff091db0a" />
+
+
+        <!-- 朱聪聪sdk-->
+
+        <!--<meta-data
+            android:name="YUNNA_OWNER_APPKEY"
+            android:value="YjJjNjU5YWQ5N2ZhNDcwMGI0Y2NhZTg1OThiMTBmZmY=" />
+        <meta-data
+            android:name="YUNNA_OWNER_APPSECRET"
+            android:value="YjJjNjU5YWQ5N2ZhNDcwMGI0Y2NhZTg1OThiMTBmZmYtWVVOTkFJ" />
         <meta-data
             android:name="YUNNA_SERVICE_APPKEY"
             android:value="ZWM5NWE1MjgwZmJmNGE4Y2IxMzA5MTJmZGJiOTA1NGE=" />
         <meta-data
             android:name="YUNNA_SERVICE_APPSECRET"
-            android:value="ZWM5NWE1MjgwZmJmNGE4Y2IxMzA5MTJmZGJiOTA1NGEtWVVOTkFJ" />
+            android:value="ZWM5NWE1MjgwZmJmNGE4Y2IxMzA5MTJmZGJiOTA1NGEtWVVOTkFJ" />-->
     </application>
 
 

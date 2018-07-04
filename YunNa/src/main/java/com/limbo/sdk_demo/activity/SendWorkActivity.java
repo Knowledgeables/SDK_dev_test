@@ -110,6 +110,7 @@ public class SendWorkActivity extends AppCompatActivity implements View.OnClickL
                 sendWorkMap.put("sort", "1");
                 sendWorkMap.put("appKey", YunNa.mType == YunNa.YUN_TYPE.TYPE_CUSTOMER ? ownerKey : serviceKey);
                 sendWorkMap.put("appSectet", YunNa.mType == YunNa.YUN_TYPE.TYPE_CUSTOMER ? ownerSectet : serviceSectet);
+                Log.d("sendWorkMap", sendWorkMap.toString());
                 YunNa.getInstance().sendWokrOrder(sendWorkMap, new ResultCallback<String>() {
                     @Override
                     public void onSuccess(String s) {
@@ -125,6 +126,9 @@ public class SendWorkActivity extends AppCompatActivity implements View.OnClickL
                                     break;
                                 case 202:
                                     Toast.makeText(SendWorkActivity.this, "SDK密钥不正确", Toast.LENGTH_LONG).show();
+                                    break;
+                                default:
+                                    Toast.makeText(SendWorkActivity.this, "系统执行异常", Toast.LENGTH_LONG).show();
                                     break;
 
                             }
