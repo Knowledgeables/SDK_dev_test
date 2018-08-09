@@ -29,11 +29,17 @@ import retrofit2.converter.gson.GsonConverterFactory;
  */
 
 public class RRetrofit {
+    public static final String CUSTOMER_URL = "http://192.168.10.16:8090/AppCloudServer/"; //业主
+    public static final String SERVICE_URL = "http://192.168.10.16:8090/AppServiceProvider/"; //服务商
+    public static final String MIDDLE_URL = "http://192.168.10.16:8090/MiddleServer/";//中间平台
+    public static final String CUSTOMER_FILE_URL = "http://192.168.10.16:8090/CloudServer/";//业主文件
+    public static final String SERVICE_FILE_URL = "http://192.168.10.16:8090/ServiceProvider/";//服务商文件
+    /*
     public static final String CUSTOMER_URL = "http://192.168.15.90:8080/AppCloudServer/"; //业主
     public static final String SERVICE_URL = "http://192.168.15.90:8080/AppServiceProvider/"; //服务商
     public static final String MIDDLE_URL = "http://192.168.15.90:8080/MiddleServer/";//中间平台
     public static final String CUSTOMER_FILE_URL = "http://192.168.15.90:8080/CloudServer/";//业主文件
-    public static final String SERVICE_FILE_URL = "http://192.168.15.90:8080/ServiceProvider/";//服务商文件
+    public static final String SERVICE_FILE_URL = "http://192.168.15.90:8080/ServiceProvider/";//服务商文件*/
     private static Retrofit.Builder builder;
     private static RRetrofit retrofit;
     private OkHttpClient httpClient;

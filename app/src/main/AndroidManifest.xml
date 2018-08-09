@@ -18,6 +18,21 @@
             </intent-filter>
         </activity>
         <!-- 郭灿sdk-->
+       <!-- <meta-data
+            &lt;!&ndash;android:name="YUNNA_OWNER_APPKEY"&ndash;&gt;
+            &lt;!&ndash;android:value="OGU1MWY1MTA0MmVkNGEyYjg0ZDNlYjQ5MWE1ZmU5Mjg=" />&ndash;&gt;
+        &lt;!&ndash;<meta-data&ndash;&gt;
+            &lt;!&ndash;android:name="YUNNA_OWNER_APPSECRET"&ndash;&gt;
+            &lt;!&ndash;android:value="OGU1MWY1MTA0MmVkNGEyYjg0ZDNlYjQ5MWE1ZmU5MjgtWVVOTkFJ" />&ndash;&gt;
+        &lt;!&ndash;<meta-data&ndash;&gt;
+            &lt;!&ndash;android:name="YUNNA_SERVICE_APPKEY"&ndash;&gt;
+            &lt;!&ndash;android:value="ad802879fb95bc1dbf10b0915aeec3144a90c91a" />&ndash;&gt;
+        &lt;!&ndash;<meta-data&ndash;&gt;
+            &lt;!&ndash;android:name="YUNNA_SERVICE_APPSECRET"&ndash;&gt;
+            &lt;!&ndash;android:value="5c8a447e6fc92058c991049af77b51fff091db0a" />-->-->
+
+
+        <!-- 郭灿sdk-->
         <meta-data
             android:name="YUNNA_OWNER_APPKEY"
             android:value="OGU1MWY1MTA0MmVkNGEyYjg0ZDNlYjQ5MWE1ZmU5Mjg=" />
@@ -26,11 +41,10 @@
             android:value="OGU1MWY1MTA0MmVkNGEyYjg0ZDNlYjQ5MWE1ZmU5MjgtWVVOTkFJ" />
         <meta-data
             android:name="YUNNA_SERVICE_APPKEY"
-            android:value="ad802879fb95bc1dbf10b0915aeec3144a90c91a" />
+            android:value="51f6df555a75cd92ac5f5bae2f4c3671104e4f78" />
         <meta-data
             android:name="YUNNA_SERVICE_APPSECRET"
-            android:value="5c8a447e6fc92058c991049af77b51fff091db0a" />
-
+            android:value="0a179ce35b0a08dfb69a3acb82e6444d9a8bd984" />
 
         <!-- 朱聪聪sdk-->
 
